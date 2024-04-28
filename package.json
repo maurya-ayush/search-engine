@@ -6,22 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "drizzle:seed": "pnpm tsx ./src/db/seed.ts"
   },
   "dependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@neondatabase/serverless": "^0.9.1",
     "@radix-ui/react-slot": "^1.0.2",
+    "@upstash/vector": "^1.0.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.30.9",
     "init": "^0.1.2",
     "lucide-react": "^0.376.0",
     "next": "14.2.3",
+    "openai": "^4.38.5",
+    "pg": "^8.11.5",
     "react": "^18",
     "react-dom": "^18",
     "shadcn-ui": "^0.8.0",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.7.3"
   },
   "devDependencies": {
     "@types/node": "^20",

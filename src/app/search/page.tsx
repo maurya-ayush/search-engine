@@ -27,12 +27,12 @@ const Page = async ({ searchParams }: PageProps) => {
             .limit(3);
 
         // Log the SQL query
-        console.log("SQL query:", sqlQuery.toString());
+        // console.log("SQL query:", sqlQuery.toString());
 
         // Execute the SQL query
         const products = await sqlQuery.execute();
 
-        console.log(products); // Log the query result
+        // console.log(products); // Log the query result
 
         // Return the result
         return <pre>{JSON.stringify(products)}</pre>;
