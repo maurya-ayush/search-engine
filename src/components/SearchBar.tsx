@@ -25,6 +25,7 @@ const SearchBar = () => {
             <div className="relative h-14 z-10 rounded-md">
 
                 <Input 
+                placeholder="Ex: Winter Jacket, Summer Jacket, Jackets etc."
                 disabled={isSearching}
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
