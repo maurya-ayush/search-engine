@@ -47,7 +47,7 @@ export default function RootLayout({
               <Icons.Sparkles className="h-16 w-16" />
 
               <h1 className=" tracking-tight text-4xl sm:text-6xl font-bold">
-                Search Engine
+                Speed Search
               </h1>
 
               <p className="max-w-xl text-center text-lg text-slate-700">
